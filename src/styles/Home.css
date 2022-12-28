@@ -1,0 +1,188 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background-color:rgb(4, 14, 36);
+  box-sizing: border-box;
+  background: url(https://cdnflags.dream11.com/d11-static-pages/images/bg-wc-oct-22.webp), url(https://cdnflags.dream11.com/d11-static-pages/images/bg-wc-oct-22.png)#1c0303;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  padding-top: 6rem;
+  
+}
+/* .home::before {
+  content: "";
+  background: no-repeat center/auto url("../assests/fan1.jpg");
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  filter: blur(4 rem);
+  border-radius: 0 0 100px 100px;
+} */
+.home main {
+/* background-color: rgb(4, 14, 36); */
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+width: 50%;
+  height: 100%;
+
+  justify-content: center;
+}
+.home main img{
+  width: 80%;
+}
+.home .intro{
+  /* background-color: rgb(4, 14, 36); */
+  width: 50%;
+ float: right;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+
+
+}
+.home .intro a{
+  color: white;
+  border-bottom: 2px solid #cf541afb ;
+  margin: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+.home .intro input{
+  background-color: #007500;
+}
+.home div  h1 {
+  font: 400 2rem "Roboto";
+  color: #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home div p {
+  font: 100 .8rem "Roboto";
+  color: white;
+}
+
+.home2 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 14, 36);
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.home2 img {
+  margin-top: 15rem;
+  border-radius: 1rem;
+  width: 30%; 
+  animation: imgUp 0.7s linear infinite alternate;
+}
+.home2 div {
+  width: 50%;
+  padding: 3rem;
+}
+.home2 div p {
+  color: white;
+  margin-top: 15rem;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font: 100 1.2rem white;
+}
+@keyframes imgUp {
+  to {
+    transform: translateY(-15px);
+  }
+}
+.home3 {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(4, 14, 36);
+
+  display: flex;
+}
+.home3 div {
+  width: 60%;
+  height: 70vh;
+  background-color: white;
+  border-radius: 0 130px 130px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-top: 5rem;
+}
+.home3 div h1 {
+  border-bottom: 2px solid black;
+  padding: 0.5rem;
+  color: black;
+}
+.home3 div p {
+  padding: 2rem;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 160%;
+  font: italic 1.2rem bold;
+}
+.home4{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(4, 14, 36);
+    display: flex;  
+    justify-content: flex-end;
+}
+.home4a{    
+    background-color:  rgb(109, 115, 128);
+     border-radius: 130px 0 0 130px;
+    width: 60%;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    justify-content: center; 
+}
+.home4a h1{
+  text-transform: uppercase;
+  color: white;
+  width: 140px;
+  border-bottom: 1.7px solid white;
+  padding: 0.5rem;
+}
+.home4a artical{
+  display: flex;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home4a artical div{
+  animation: imgUp 0.7s linear infinite alternate;
+  margin: .7rem;
+  height: 6rem;
+  width: 6rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  color:  rgb(4, 14, 36);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.home4a artical div:hover{
+  filter: invert(1);
+}
+.home4a svg{
+  font-size: 2rem;
+}
+.home4 p{
+  font: 900 1rem roboto;
+}

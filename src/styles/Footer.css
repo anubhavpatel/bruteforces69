@@ -1,0 +1,39 @@
+footer{
+    background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  padding: 2rem;
+
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer h1{
+    font: 700 2rem roboto;
+    text-transform: uppercase;
+    color: rgb(10, 4, 29);
+}
+footer p{
+    font: 500 1.2rem roboto;
+}
+footer h5{
+    font: 300 2rem roboto;
+    margin: 1rem 0;
+    text-align: center;
+}
+.follow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.follow a{
+    color: black;
+    font: 900 1rem roboto;
+}
+.follow a:hover{
+    color: blueviolet;
+}
