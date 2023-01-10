@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
+import Testing from "./components/Testing";
 import "./styles/Mediaquery.scss"
 function App(){
   return  <Router>
@@ -15,7 +16,8 @@ function App(){
   <Route path="/" element={<Home/>}/>
   
   <Route path="/about" element={<About/>}/>
-  <Route path="/contact" element={<Contact/>}/>
+  {/* <Route path="/contact" element={<Contact/>}/> */}
+  <Route path="/contact" element={<Testing/>}/>
   <Route path="/services" element={<Services/>}/>
   <Route path="*" element={<div>page not found</div>}/>
 </Routes>
