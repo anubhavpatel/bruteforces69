@@ -10,7 +10,7 @@ import {AiFillGoogleCircle,
 const Home = () => {
   return (
     <>
-      <div className="home" id="home">
+      <div className='home'>
         <main>
           <img src="https://cdnflags.dream11.com/d11-static-pages/images/cricket_players_nov_2022.webp" alt="graphics"
      />
