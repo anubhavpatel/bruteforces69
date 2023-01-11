@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/bruteforces69/static/css/main.bc897ff9.css",
+    "main.js": "/bruteforces69/static/js/main.da4719b9.js",
+    "static/media/bbl2.png": "/bruteforces69/static/media/bbl2.1a0cc1e3f9e73de78303.png",
+    "static/media/bbl1.jpg": "/bruteforces69/static/media/bbl1.416813680653ff53d92f.jpg",
+    "static/media/bbl3.jpg": "/bruteforces69/static/media/bbl3.0892b4b4322bce496d22.jpg",
+    "static/media/bbl10.jpg": "/bruteforces69/static/media/bbl10.f34ebb43312f30b43e17.jpg",
+    "static/media/bbl9.jpg": "/bruteforces69/static/media/bbl9.f55741099da882853fbe.jpg",
+    "static/media/d11logo.png": "/bruteforces69/static/media/d11logo.fe994a90b0f272da7e6d.png",
+    "static/media/bbl4.jpg": "/bruteforces69/static/media/bbl4.4bdcc3a3e5d0b244ad90.jpg",
+    "static/media/bbl6.jpg": "/bruteforces69/static/media/bbl6.b3da6b3852be71ea85e4.jpg",
+    "static/media/bbl7.jpg": "/bruteforces69/static/media/bbl7.7657145e837f78b566fe.jpg",
+    "static/media/bbl5.jpg": "/bruteforces69/static/media/bbl5.6104ad706f625a61d1bc.jpg",
+    "static/media/bbl8.jpg": "/bruteforces69/static/media/bbl8.1dff7441633a32975a5c.jpg",
+    "index.html": "/bruteforces69/index.html",
+    "main.bc897ff9.css.map": "/bruteforces69/static/css/main.bc897ff9.css.map",
+    "main.da4719b9.js.map": "/bruteforces69/static/js/main.da4719b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc897ff9.css",
+    "static/js/main.da4719b9.js"
+  ]
+}
