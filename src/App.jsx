@@ -8,6 +8,8 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Testing from "./components/Testing";
 import "./styles/Mediaquery.scss"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 function App(){
   return  <Router>
     <Header/>
