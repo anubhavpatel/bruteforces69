@@ -96,18 +96,18 @@
 }
 
 .a{
- 
+ display: flex;
   margin-top: 1rem;
 }
 .b{
- 
+  display: flex;
   margin-top: 1rem;
   color: rgb(21, 72, 212);
   font-size: 1rem;
   cursor: pointer;
 }
 .c{
-
+  display: flex;
   margin: 1rem 2rem 4rem 2rem;
  
 }
@@ -130,9 +130,11 @@
   
 
 }
-
+.top1 .a1{
+  display: flex;
+}
 .top1 .b1{
- 
+  display: flex;
   margin: 1rem 2rem 4rem 2rem;
 }
 .top1 .b1 p{
