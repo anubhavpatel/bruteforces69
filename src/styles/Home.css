@@ -32,6 +32,13 @@
   
   
 }
+
+.home .d_logo img{
+  width: 8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .home .intro_m{
   visibility: hidden;
 }
@@ -46,15 +53,18 @@
 
 
 }
-.home .intro a ,.home .intro_m a{
+.home .intro .ul ,.home .intro_m .ul{
   color: white;
   border-bottom: 2px solid #cf541afb ;
   margin: 1rem;
   padding-bottom: 0.2rem;
 }
 
-.home .intro input, .home .intro_m input{
+.home .intro .d_btn , .home .intro_m .d_btn{
   background-color: #007500;
+}
+#a:hover{
+  background-color: #11a111;
 }
 .home div  h1 {
   font: 400 2rem "Roboto";

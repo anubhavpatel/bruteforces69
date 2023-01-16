@@ -21,7 +21,7 @@ function App(){
   {/* <Route path="/contact" element={<Contact/>}/> */}
   <Route path="/contact" element={<Testing/>}/>
   <Route path="/services" element={<Services/>}/>
-  <Route path="*" element={<div>page not found</div>}/>
+  <Route path="*" element={<Home/>}/>
 </Routes>
 <Footer/>
   </Router>;

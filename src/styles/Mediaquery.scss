@@ -98,6 +98,11 @@
         background-color: #fa4f00fb;
       }
     }
+    > .d_logo {
+      > img{
+        width: 5rem;
+      }
+    }
   }
 
   .home2 {
@@ -226,20 +231,5 @@
       }
     }
   }
-  footer {
-    height: 50vh;
-    grid-template-columns: 1fr;
-    padding: 5rem;
-
-    > div {
-      align-items: center;
-      > h1 {
-        font-size: 1.5rem;
-        font-weight: 500;
-      }
-      > p {
-        font-size: 1rem;
-      }
-    }
-  }
+ 
 }

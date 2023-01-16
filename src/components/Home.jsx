@@ -11,6 +11,9 @@ const Home = () => {
   return (
     <>
       <div className='home'>
+        <div className="d_logo">
+        <img src="https://cdnflags.dream11.com/d11-static-pages/images/Logo-Bolt.webp"/>
+        </div>
         <main>
           <img src="https://cdnflags.dream11.com/d11-static-pages/images/cricket_players_nov_2022.webp" alt="graphics"
    
@@ -18,8 +21,8 @@ const Home = () => {
           <div className="intro_m">
           <h1>Bruteforces69</h1>
           <p>GAME CHANGER</p>
-          <a href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
-          <input className='submit' type="submit" value="Download"/>
+          <a className="ul" href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
+          <a href="https://dream11.onelink.me/2xAP/abbzvc3i "  target="blank" > <input  id="a"  className='d_btn' type="submit"  value="Download"/></a>
     
 
           </div>
@@ -27,8 +30,8 @@ const Home = () => {
         <div className="intro">
           <h1>Bruteforces69</h1>
           <p>GAME CHANGER</p>
-          <a href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
-          <input className='submit' type="submit" value="Download"/>
+          <a className="ul" href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
+          <a  href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank"> <input  id="a"   className='d_btn' type="submit" value="Download"/></a>
     
 
           </div>
