@@ -1,42 +1,4 @@
-/* footer{
-    background-color: rgb(66, 66, 66);
-  height: 200px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
-  padding: 2rem;
 
-}
-footer div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-footer h1{
-    font: 700 2rem roboto;
-    text-transform: uppercase;
-    color: rgb(10, 4, 29);
-}
-footer p{
-    font: 500 1.2rem roboto;
-}
-footer h5{
-    font: 300 2rem roboto;
-    margin: 1rem 0;
-    text-align: center;
-}
-.follow{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.follow a{
-    color: black;
-    font: 900 1rem roboto;
-}
-.follow a:hover{
-    color: blueviolet;
-} */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
@@ -80,7 +42,7 @@ footer h5{
 }
 
 .footer-distributed h3 span{
-	color:  lightseagreen;
+	color:  rgb(255, 0, 0);
 }
 
 /* Footer links */
@@ -113,7 +75,7 @@ footer h5{
 }
 
 .footer-distributed .footer-center i{
-	background-color:  #33383b;
+	background-color:  #185c86;
 	color: #ffffff;
 	font-size: 25px;
 	width: 38px;
@@ -146,7 +108,7 @@ footer h5{
 }
 
 .footer-distributed .footer-center p a{
-	color:  lightseagreen;
+	color:  rgb(255, 255, 255);
 	text-decoration: none;;
 }
 
@@ -155,7 +117,7 @@ footer h5{
   font-weight:300;
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   padding-right: 5px;
 }

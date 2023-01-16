@@ -1,36 +1,13 @@
-// import React from 'react'
-// import "../styles/Footer.css"
-// const Footer = () => {
-//   return  <footer>
-//   <div>
-//     <h1>Bruteforces69.</h1>
-//     <p>@dream11</p>
-//   </div>
-
-//   <div>
-//     <h5>Follow Us on</h5>
-//     <div className='follow'>
-      
-//       <a href="https://instagram.com/anubhav._patel" target={"blank"}>
-//         Instagram
-//       </a>
-//       <a href="https://github.com/anubhavpatel" target={"blank"}>
-//         Github
-//       </a>
-//     </div>
-//   </div>
-// </footer>
-// }
-
-// export default Footer
-
 
 import React from 'react'
 import {
   AiFillInstagram,
+  AiFillFacebook,
+  AiFillGithub,
+  AiOutlineMail
 
 } from "react-icons/ai"
-import { BsFacebook, } from "react-icons/fa";
+
 
 import "../styles/Footer.css"
 const Footer = () => {
@@ -72,7 +49,7 @@ const Footer = () => {
 
 				<div>
 					<i class="fa fa-envelope"></i>
-					<p><a href="anubhavpatel6391@gmail.com">anubhavpatel6391@gmail.com</a></p>
+					<p><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCcTtsqXzTnnGFrMlBhQKCHVcqBCzPRXLgtJfJHSPfHvzLRCwqQcNrBLkJQdjbZtdNflV"  target="blank">anubhavpatel6391@gmail.com</a></p>
 				</div>
 
 			</div>
@@ -86,10 +63,10 @@ const Footer = () => {
 
 				<div class="footer-icons">
 
-					<a href="#"></a>
-					<a href="#"> <AiFillInstagram/></a>
-					<a href="#"> <AiFillInstagram/></a>
-					<a href="#"><AiFillInstagram/></a>
+					<a href="https://www.facebook.com/anubhav.patel.71465" target="blank"><AiFillFacebook/></a>
+					<a href="https://www.instagram.com/anubhav._patel/" target="blank"> <AiFillInstagram/></a>
+					<a href="https://github.com/anubhavpatel" target="blank"> <AiFillGithub/></a>
+					<a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwRCcTtsqXzTnnGFrMlBhQKCHVcqBCzPRXLgtJfJHSPfHvzLRCwqQcNrBLkJQdjbZtdNflV" target="blank"><AiOutlineMail/></a>
 
 				</div>
 
