@@ -9,14 +9,15 @@ const Header = () => {
 
     <div className='nav'>
        <h1>Bruteforces69.</h1>
-       <img src={img} alt ="img" />
+       <img src="	https://cdnflags.dream11.com/d11-static-pages/images/left_top_logo.webp
+" alt ="img" />
        <main>
       <HashLink to={"/#home"} >Home</HashLink>
      
-      <HashLink to={"/#about"}>About</HashLink> 
+      <HashLink to={"/#predictions"}>Predictions</HashLink> 
       <HashLink to={"/#brands"} >Brands</HashLink>
       <HashLink to={"/services"} >Services</HashLink>
-      <HashLink to={"/contact"}>Contact</HashLink>
+      
 
       </main>
     </div>

@@ -5,12 +5,17 @@ import vid from "../assests/play_dream11.mp4"
 import {AiFillGoogleCircle,
   AiFillAmazonCircle,
   AiFillYoutube,
-  AiFillInstagram
+  AiFillInstagram,
+  AiFillAndroid
 } from "react-icons/ai"
+
 const Home = () => {
   return (
     <>
-      <div className='home'>
+      <div className='home' id="home">
+        <div className="d_logo">
+        <img src="https://cdnflags.dream11.com/d11-static-pages/images/Logo-Bolt.webp"/>
+        </div>
         <main>
           <img src="https://cdnflags.dream11.com/d11-static-pages/images/cricket_players_nov_2022.webp" alt="graphics"
    
@@ -18,8 +23,8 @@ const Home = () => {
           <div className="intro_m">
           <h1>Bruteforces69</h1>
           <p>GAME CHANGER</p>
-          <a href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
-          <input className='submit' type="submit" value="Download"/>
+          <a className="ul" href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
+          <a href="https://dream11.onelink.me/2xAP/abbzvc3i "  target="blank" > <input  id="a"  className='d_btn' type="submit"  value="Download"/></a>
     
 
           </div>
@@ -27,8 +32,8 @@ const Home = () => {
         <div className="intro">
           <h1>Bruteforces69</h1>
           <p>GAME CHANGER</p>
-          <a href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
-          <input className='submit' type="submit" value="Download"/>
+          <a className="ul" href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank">Download the official Dream11 app</a>
+          <a  href="https://dream11.onelink.me/2xAP/abbzvc3i " target="blank"> <input  id="a"   className='d_btn' type="submit" value="Download"/></a>
     
 
           </div>
@@ -80,26 +85,47 @@ const Home = () => {
     <div className="c1"> <video src={vid} width="550" height="300" controls>
      </video></div>
      </div>
-
-        <img className="img_u_d" src="https://cdnflags.dream11.com/d11-static-pages/images/cricket_players_nov_2022.webp"  alt="graphics" />
-        <div>
-          {/* <p>
-          “Our culture is like a jersey that unites our team within Dream Sports. It is also our game plan that will continue 
-           to fuel our growth." 
-          </p> */}
-        </div>
+    <div className="img_u_d">
+      <h3>Get the app and<span>Win Crores</span></h3>
+      <div className="img_ud">
+      
+      <img  src="https://cdnflags.dream11.com/d11-static-pages/images/get_app_banner_2022_new.webp"  alt="graphics" />
+      
+    
       </div>
-      <div className="home3"  id="about">
-        <div >
-          <h1>About us</h1>
-          <p >
-          Dream11 is the world’s largest fantasy sports platform with
-           120 million+ users playing fantasy cricket, football, kabaddi,
-           basketball, hockey, volleyball, handball, rugby, futsal, American
-           football & baseball, on it. Dream11 is the flagship brand of Dream 
-            Sports, India’s leading Sports Technology company and has partnerships
-           with several national & international sports bodies and cricketers.
-          </p>
+    </div>
+      
+      
+      </div>
+      <div className="home3"  id="predictions">
+      <h2>Today's Match prediction</h2>
+      <div className="pre_div">
+        <div className="pred1" >
+        <h4>MI vs CSK</h4>
+        <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+         
+        
+        
+        
+        </div>
+        <div className="pred2">
+        <h4>MI vs CSK</h4>
+      
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+          <li>Our culture is like a jersey that unites our team within Dream Sports.</li>
+       
+       
+         
+          
+        
+        </div>
         </div>
       </div>
       <div className="home4" id="brands">
