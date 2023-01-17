@@ -22,7 +22,7 @@ const Footer = () => {
 				<p class="footer-links">
 					<a href="#" class="link-1">Home</a>
 					
-					<a href="#">About</a>
+					<a href="#">Predictions</a>
 				
 					<a href="#">Brands</a>
 				
