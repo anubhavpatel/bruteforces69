@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bruteforces69/static/css/main.eb565317.css",
-    "main.js": "/bruteforces69/static/js/main.8c383f50.js",
+    "main.js": "/bruteforces69/static/js/main.eca3b820.js",
     "static/media/play_dream11.mp4": "/bruteforces69/static/media/play_dream11.7fd78b34eaf9d88800c4.mp4",
     "static/media/bbl2.png": "/bruteforces69/static/media/bbl2.1a0cc1e3f9e73de78303.png",
     "static/media/bbl1.jpg": "/bruteforces69/static/media/bbl1.416813680653ff53d92f.jpg",
@@ -20,10 +20,10 @@
     "static/media/slick.woff": "/bruteforces69/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/bruteforces69/index.html",
     "main.eb565317.css.map": "/bruteforces69/static/css/main.eb565317.css.map",
-    "main.8c383f50.js.map": "/bruteforces69/static/js/main.8c383f50.js.map"
+    "main.eca3b820.js.map": "/bruteforces69/static/js/main.eca3b820.js.map"
   },
   "entrypoints": [
     "static/css/main.eb565317.css",
-    "static/js/main.8c383f50.js"
+    "static/js/main.eca3b820.js"
   ]
 }
