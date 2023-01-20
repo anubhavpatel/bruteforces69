@@ -7,9 +7,11 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Testing from "./components/Testing";
+import LiveScore from "./components/LiveScore";
 import "./styles/Mediaquery.scss"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
 function App(){
   return  <Router>
     <Header/>
@@ -20,7 +22,7 @@ function App(){
   <Route path="/predictions" element={<About/>}/>
   
 
-  <Route path="/services" element={<Services/>}/>
+  <Route path="/services" element={<LiveScore/>}/>
   <Route path="*" element={<Home/>}/>
 </Routes>
 <Footer/>
