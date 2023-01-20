@@ -1,6 +1,6 @@
 import React from 'react'
 import "../styles/ScoreCard.css"
-const ScoreCard = ({id,matchType,name,status}) => {
+const ScoreCard = ({id,matchType,name,status ,score, teamInfo}) => {
   return (
     <div className='scorecard'>
   
@@ -10,12 +10,12 @@ const ScoreCard = ({id,matchType,name,status}) => {
                 <div className="inf2"><p>{name}</p></div>
             </div>
             <div className="t1">
-                <div className="img1">IND</div>
-                <div className="score1">349-8(50)</div>
+                <div className="img1">{teamInfo[1].shortname}</div>
+                <div className="score1">{score[0]?.r}-{score[0]?.w}({score[0]?.o})</div>
             </div>
             <div className="t2">
-            <div className="img2">NZ</div>
-                <div className="score2">337-10(49.2)</div>
+            <div className="img2">{teamInfo[0].shortname}</div>
+                <div className="score2">{score[1]?.r}-{score[1]?.w}({score[1]?.o})</div>
             </div>
             <div className="result">{status}</div>
 

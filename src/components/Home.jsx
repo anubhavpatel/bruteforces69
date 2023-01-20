@@ -46,7 +46,7 @@ const Home = () => {
       </div>
       <div className="home2">
         <div className="top">
-        <div className="a"><h3>It's easy to start playing <span>on Dream11</span> </h3></div>
+        <div className="a"style={{backgroundColor: "#ffffff"}} ><h3>It's easy to start playing <span>on Dream11</span> </h3></div>
         <div className="b">Play Fantasy Cricket on Dream11 and win big!</div>
         <div className="c"><p>Enter into the thrilling world of Fantasy sports, a strategy-based online
          sports game wherein you can create a virtual team of real players playing in real life matches.
